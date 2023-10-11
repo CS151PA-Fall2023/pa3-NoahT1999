@@ -1,13 +1,13 @@
 /**
  * @file main.cpp
- * @author your name (you@domain.com)
+ * @author Noah Turner
  * @brief 
  * @version 0.1
  * @date 
  * 
  */
 #include <iostream>
-#include "Rational.h"
+#include "rational.h"
 
 using std::cout;
 using std::endl;
@@ -31,7 +31,7 @@ int main()
     num3.reduce();
     cout <<"Reduced num3 = "<<num3<<endl;
 
-    Rational num4("3/-4");//Convert Constructor
+    Rational num4("3/-4");//Convert Constructor covered ch 12
     cout <<"num4 = "<<num4<<endl;
     num4.reduce();
     cout <<"Reduced num4 = "<<num4<<endl;
